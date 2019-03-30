@@ -58,7 +58,7 @@ public class Order {
         int nbDrink = -1;
         switch (nbMenu) {
             case 1:
-                nbSide = askSide(true);
+                nbSide = askSide(true)
                 nbDrink = askDrink();
                 break;
             case 2:
