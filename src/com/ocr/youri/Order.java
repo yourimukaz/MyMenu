@@ -100,9 +100,9 @@ public class Order {
             } else {
                 boolean isVowel = "aeiouy".contains(Character.toString(category.charAt(0)));
                 if (isVowel)
-                    System.out.println("Vous n'avez pas choisi d'" + category + " parmi les choix proposés");
+                    System.out.println("Vous n'avez pas choisi d'" + category + " parmi les choix presenter");
                 else
-                    System.out.println("Vous n'avez pas choisi de " + category + " parmi les choix proposés");
+                    System.out.println("Vous n'avez pas choisi de " + category + " parmi les choix presenter");
             }
         } while (!responseIsGood);
         return nbResponse;
