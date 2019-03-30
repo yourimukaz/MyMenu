@@ -25,7 +25,7 @@ public class Order {
         boolean responseIsGood;
         do {
             try {
-                menuQuantity = sc.nextInt();
+                menuQuantity= sc.nextInt();
                 responseIsGood = true;
             } catch (InputMismatchException e) {
                 sc.next();
